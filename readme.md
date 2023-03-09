@@ -1,1 +1,1 @@
-https://kingamiko.github.io/cv-w-html/
+https://kingamiko.github.io/cv-in-html/
