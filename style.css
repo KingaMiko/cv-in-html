@@ -65,7 +65,7 @@ aside {
   margin-left: 40px;
 }
 main {
-  padding: 102px 88px 102px 88px;
+  padding: 10px 88px 10px 88px;
 }
 .main-description {
   width: 429px;
@@ -89,7 +89,7 @@ h1 {
   text-align: justify;
 }
 .projects {
-  width: 540px;
+  width: 450px;
   margin-bottom: 51px;
 }
 .list-primary {
@@ -98,6 +98,12 @@ h1 {
   line-height: 24px;
   padding-left: 0;
   list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+}
+.list-primary li {
+  display: flex;
+  justify-content: space-between;
 }
 .list-primary-item {
   color: #595959;
@@ -105,6 +111,8 @@ h1 {
   font-weight: 400;
   line-height: 24px;
   text-decoration: none;
+  text-decoration-line: underline;
+  text-align: right;
 }
 .border {
   font-size: 4px;
@@ -142,7 +150,7 @@ h1 {
 }
 .education {
   margin-top: 43px;
-  margin-bottom: 12px;
+  margin-bottom: 10pxpx;
 }
 .university {
   color: #fb6d3a;
