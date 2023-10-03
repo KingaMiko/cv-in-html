@@ -7,9 +7,25 @@ body {
   flex-direction: row-reverse;
   justify-content: center;
   width: 1200px;
+  margin: 0px auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px 0px #0000001a;
+}
+
+.wrapper-footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1200px;
   margin: 0 auto;
   background: #ffffff;
   box-shadow: 6px 6px 20px 0px #0000001a;
+}
+
+.text-footer {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 10px;
 }
 aside {
   width: 370px;
@@ -23,7 +39,7 @@ aside {
 }
 .contact-links {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 24px;
 }
 .bold {
@@ -31,7 +47,7 @@ aside {
 }
 .list-secondary {
   color: #fb6d3a;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 24px;
   margin-left: 0px;
   padding-left: 0px;
@@ -41,27 +57,27 @@ aside {
   color: #ffffff;
 }
 .contact-block {
-  margin-top: 51px;
+  margin-top: 20px;
   margin-left: 40px;
 }
 .tech-skills-block {
-  margin-top: 47px;
+  margin-top: 30px;
   margin-left: 40px;
 }
 .soft-skills-block {
-  margin-top: 44px;
+  margin-top: 30px;
   margin-left: 40px;
 }
 .certificates-block {
-  margin-top: 51px;
+  margin-top: 30px;
   margin-left: 40px;
 }
 .languages-block {
-  margin-top: 51px;
+  margin-top: 30px;
   margin-left: 40px;
 }
 .hobbies-block {
-  margin-top: 51px;
+  margin-top: 30px;
   margin-left: 40px;
 }
 main {
@@ -71,7 +87,7 @@ main {
   width: 429px;
 }
 .job-title {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 17px;
 }
@@ -82,10 +98,10 @@ h1 {
 }
 .description {
   color: #595959;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 40px;
+
   text-align: justify;
 }
 .projects {
@@ -93,7 +109,7 @@ h1 {
   margin-bottom: 51px;
 }
 .list-primary {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 24px;
   padding-left: 0;
@@ -107,7 +123,7 @@ h1 {
 }
 .list-primary-item {
   color: #595959;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 24px;
   text-decoration-line: underline;
@@ -125,7 +141,7 @@ h1 {
   margin-bottom: 12px;
 }
 .job-name {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 20px;
   margin-bottom: 11px;
@@ -141,7 +157,7 @@ h1 {
   margin-bottom: 8px;
 }
 .job-list {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 16px;
@@ -153,7 +169,7 @@ h1 {
 }
 .university {
   color: #fb6d3a;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 20px;
   margin-bottom: 11px;
