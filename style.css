@@ -32,7 +32,7 @@ aside {
   height: auto;
 }
 .cv-photo {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 .header-secondary {
   color: #ffffff;
@@ -57,36 +57,29 @@ aside {
   color: #ffffff;
 }
 .contact-block {
-  margin-top: 20px;
   margin-left: 40px;
 }
 .tech-skills-block {
-  margin-top: 30px;
   margin-left: 40px;
 }
 .soft-skills-block {
-  margin-top: 30px;
   margin-left: 40px;
 }
 .certificates-block {
-  margin-top: 30px;
   margin-left: 40px;
 }
 .languages-block {
-  margin-top: 30px;
   margin-left: 40px;
 }
 .hobbies-block {
-  margin-top: 30px;
   margin-left: 40px;
-  margin-bottom: 20px;
 }
 main {
   padding: 10px 88px 10px 88px;
   height: auto;
 }
 .main-description {
-  width: 429px;
+  width: 700px;
 }
 .job-title {
   font-size: 13px;
@@ -97,18 +90,17 @@ h1 {
   font-size: 45px;
   font-weight: 700;
   line-height: 55px;
+  margin: 0px;
 }
 .description {
   color: #595959;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
-
   text-align: justify;
 }
 .projects {
-  width: 450px;
-  margin-bottom: 51px;
+  width: 700px;
 }
 .list-primary {
   font-size: 13px;
@@ -122,6 +114,7 @@ h1 {
 .list-primary li {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 .list-primary-item {
   color: #595959;
@@ -140,13 +133,10 @@ h1 {
   font-size: 22px;
   font-weight: 700;
   line-height: 27px;
-  margin-bottom: 12px;
 }
 .job-name {
   font-size: 15px;
   font-weight: 700;
-  line-height: 20px;
-  margin-bottom: 11px;
 }
 .highlight {
   color: #fb6d3a;
@@ -155,23 +145,37 @@ h1 {
   color: #a8a8a8;
   font-size: 12px;
   font-weight: 400;
-  line-height: 15px;
-  margin-bottom: 8px;
 }
 .job-list {
   font-size: 13px;
   font-weight: 400;
-  line-height: 24px;
-  margin-bottom: 16px;
+  line-height: 20px;
   text-align: justify;
 }
 .education {
-  margin-top: 51px;
+  margin-top: 20px;
 }
 .university {
   color: #fb6d3a;
   font-size: 15px;
   font-weight: 700;
   line-height: 20px;
-  margin-bottom: 11px;
+}
+.other {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 24px;
+  padding-right: 30px;
+}
+.projects-description {
+  display: flex;
+  margin: 0px;
+}
+.project-item {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.list-primary-text {
+  font-weight: 700;
 }
