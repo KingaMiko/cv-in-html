@@ -92,6 +92,16 @@ h1 {
   line-height: 55px;
   margin: 0px;
 }
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .description {
   color: #595959;
   font-size: 13px;
@@ -145,12 +155,15 @@ h1 {
   color: #a8a8a8;
   font-size: 12px;
   font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .job-list {
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
   text-align: justify;
+  margin-top: 5px;
 }
 .education {
   margin-top: 20px;
